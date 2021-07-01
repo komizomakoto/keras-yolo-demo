@@ -1,0 +1,17 @@
+yolov3 動かし方
+https://tech-diary.net/keras-yolov3/
+https://arakan-pgm-ai.hatenablog.com/entry/2019/03/20/090000
+
+・仮想環境確認
+conda info -e
+・仮想環境ON
+conda activate `仮想環境名`
+
+・PCカメラで実行
+keras-yolo3-master>python yolo_cam.py
+
+・画像の場合
+python yolo_video.py --image
+
+・動画の場合
+python yolo_video.py --input [input video file] --output [output video file]
